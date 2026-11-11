@@ -1,5 +1,4 @@
-<img src="assets/banner.svg" width="100%" alt="Lorax: cybersecurity, SOC, blue team, red team, networking and offensive code" />
-
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,60:0b3a4a,100:0e7490&height=200&section=header&text=LORAX&fontSize=64&fontColor=e6edf3&fontAlignY=42&desc=SOC%20%7C%20Blue%20Team%20%7C%20Red%20Team%20%7C%20Networking&descSize=16&descAlignY=66&descColor=22d3ee&animation=twinkling" width="100%" alt="Lorax: cybersecurity, SOC, blue team, red team, networking" />
 ```text
 ┌─ operator
 │ id        Lorax
