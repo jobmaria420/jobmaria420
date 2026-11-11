@@ -65,7 +65,7 @@ $ diff red.log blue.log
 | Discovery | Protocol and traffic analysis with Wireshark | Correlate network events, separate noise from signal |
 | **Response** | | **Triage, investigation and containment per playbook** |
 
-
+<!--
 FEATURED PROJECTS: UNCOMMENT ONLY WHEN YOU HAVE REAL REPOS.
 Steps: 1) replace FLAGSHIP_REPO and REPO_1..REPO_4 with real repo names,
 2) fill in the flagship name and description, 3) remove this comment wrapper.
@@ -103,6 +103,7 @@ One objective line: what it solves and for whom.
 [all repositories →](https://github.com/jobmaria?tab=repositories)
 
 </div>
+-->
 
 ## > stack
 
@@ -132,8 +133,6 @@ Empty graphs hurt more than they help.
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=jobmaria&bg_color=050505&color=e5121b&line=e5121b&point=ededed&area=true&area_color=e5121b&hide_border=true" width="100%" alt="activity" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/?username=jobmaria&show_icons=true&hide_border=true&bg_color=050505&title_color=e5121b&icon_color=e5121b&text_color=ededed" alt="stats" />
 </div>
--->
-
 
 <div align="center">
 
