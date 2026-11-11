@@ -77,18 +77,17 @@ UNCOMMENT THIS SECTION ONLY WHEN YOU HAVE REAL REPOS
 ![Wireshark](https://img.shields.io/badge/Wireshark-15803d?style=flat-square&logo=wireshark&logoColor=white)
 ![Packet Tracer](https://img.shields.io/badge/Packet_Tracer-15803d?style=flat-square)
 
-<sub>red = offensive · blue = detection · green = networking</sub>
 
 </div>
 
-<!--
+
 ENABLE ONLY WHEN THE ACCOUNT HAS REAL ACTIVITY (empty graphs hurt more than they help)
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=jobmaria&bg_color=020617&color=22d3ee&line=0e7490&point=e6edf3&area=true&area_color=0e7490&hide_border=true" width="100%" alt="activity" />
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=jobmaria&show_icons=true&hide_border=true&bg_color=020617&title_color=22d3ee&icon_color=22c55e&text_color=c9d1d9" alt="stats" />
 </div>
--->
+
 
 ## Contact
 
