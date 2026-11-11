@@ -133,7 +133,7 @@ Empty graphs hurt more than they help.
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=jobmaria&bg_color=050505&color=e5121b&line=e5121b&point=ededed&area=true&area_color=e5121b&hide_border=true" width="100%" alt="activity" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/?username=jobmaria&show_icons=true&hide_border=true&bg_color=050505&title_color=e5121b&icon_color=e5121b&text_color=ededed" alt="stats" />
 </div>
-
+-->
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:e5121b,50:050505,100:050505&height=100&section=footer" width="100%" alt="" />
