@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Job Maria: cybersecurity, SOC, blue team, red team, redes e programação" xmlns:c2pa="http://c2pa.org/manifest">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset="0.6" stop-color="#080404"/>
+      <stop offset="1" stop-color="#1c0505"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1020" cy="160" r="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5121b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#e5121b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" fill-opacity="0.45"/>
+    </pattern>
+    <linearGradient id="readable" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#050505" stop-opacity="0.9"/>
+      <stop offset="0.6" stop-color="#050505" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#050505" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e5121b" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e5121b" stop-opacity="0.6"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.8"/>
+    </radialGradient>
+    <filter id="noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono','Fira Code','Courier New',monospace; }
+    .rain { font-family: 'Courier New',monospace; font-size: 13px; fill: #e5121b; opacity: 0;
+            writing-mode: vertical-rl; text-orientation: upright; letter-spacing: 3px; }
+    .r1 { animation: fall 11s linear infinite; }
+    .r2 { animation: fall 15s linear infinite -4s; }
+    .r3 { animation: fall 9s linear infinite -2s; }
+    .r4 { animation: fall 13s linear infinite -7s; }
+    .r5 { animation: fall 17s linear infinite -10s; }
+    @keyframes fall {
+      0%   { transform: translateY(0);     opacity: 0; }
+      15%  { opacity: 0.3; }
+      85%  { opacity: 0.3; }
+      100% { transform: translateY(300px); opacity: 0; }
+    }
+    .sweep { transform-origin: 1020px 160px; animation: spin 5s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .blip { animation: pulse 5s ease-in-out infinite; }
+    .b2 { animation-delay: -1.7s; }
+    .b3 { animation-delay: -3.3s; }
+    @keyframes pulse { 0%,100% { opacity: 0.1; } 50% { opacity: 1; } }
+    .trace { stroke-dasharray: 6 10; animation: flow 3s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -64; } }
+    .g1 { animation: glitchA 5s steps(1) infinite; }
+    .g2 { animation: glitchB 5s steps(1) infinite; }
+    @keyframes glitchA {
+      0%,88%,100% { transform: translate(0,0); }
+      90% { transform: translate(-6px,1px); }
+      93% { transform: translate(4px,-1px); }
+      96% { transform: translate(-3px,0); }
+    }
+    @keyframes glitchB {
+      0%,88%,100% { transform: translate(0,0); }
+      90% { transform: translate(6px,-1px); }
+      93% { transform: translate(-4px,1px); }
+      96% { transform: translate(3px,0); }
+    }
+    .slice { opacity: 0; animation: slice 5s steps(1) infinite; }
+    .s2 { animation-delay: -2.5s; }
+    @keyframes slice {
+      0%,89%,100% { opacity: 0; }
+      90% { opacity: 0.75; }
+      92% { opacity: 0; }
+      95% { opacity: 0.5; }
+      96% { opacity: 0; }
+    }
+    .blink { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 0%,50% { opacity: 1; } 51%,100% { opacity: 0; } }
+    .flicker { animation: flicker 7s steps(1) infinite; }
+    @keyframes flicker {
+      0%,60%,64%,100% { opacity: 1; }
+      61% { opacity: 0.55; }
+      62% { opacity: 1; }
+      63% { opacity: 0.7; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .r1,.r2,.r3,.r4,.r5,.sweep,.blip,.trace,.g1,.g2,.slice,.blink,.flicker { animation: none; }
+      .rain { opacity: 0.2; }
+    }
+  </style>
+
+  <!-- base -->
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+
+  <!-- hex / binary rain (red) -->
+  <g>
+    <text class="rain r1" x="40"  y="-150">0100101 A3F0 1101 7E2B 0110 FF01 9C</text>
+    <text class="rain r2" x="130" y="-150">7F454C46 0101 B00B 1110 4D5A 0011 E8</text>
+    <text class="rain r3" x="225" y="-150">1010 DEAD 0110 BEEF 0001 CAFE 1100 5</text>
+    <text class="rain r4" x="320" y="-150">0x41 0x90 1011 C0DE 0100 2F62 1001 A</text>
+    <text class="rain r5" x="415" y="-150">0110 90EB 1100 0F05 0010 31C0 1111 B</text>
+    <text class="rain r2" x="510" y="-150">3C2D 0101 FEED 1000 0110 6A0B 0011 D</text>
+    <text class="rain r1" x="605" y="-150">1001 4883 0110 EC08 1010 5F5E 0001 C</text>
+    <text class="rain r3" x="700" y="-150">0xFF 1110 0111 B8FF 0100 CD80 1011 2</text>
+    <text class="rain r5" x="795" y="-150">0001 6A3B 1101 5899 0110 0F05 1100 E</text>
+    <text class="rain r4" x="890" y="-150">1100 EBFE 0010 9090 1111 4831 0101 8</text>
+    <text class="rain r2" x="1180" y="-150">0110 1337 1001 C3C3 0101 F00D 1010 7</text>
+  </g>
+
+  <!-- readability layer behind the text -->
+  <rect width="1200" height="320" fill="url(#readable)"/>
+
+  <!-- circuit traces -->
+  <g fill="none" stroke-width="1.5">
+    <path class="trace" d="M0 296 H170 L200 270 H430 L452 292 H640" stroke="#e5121b" stroke-opacity="0.6"/>
+    <path class="trace" d="M0 36 H120 L150 62 H330 L350 44 H520" stroke="#ffffff" stroke-opacity="0.25"/>
+    <path class="trace" d="M1200 286 H1010 L985 304 H820" stroke="#e5121b" stroke-opacity="0.5"/>
+    <circle cx="640" cy="296" r="3" fill="#e5121b"/>
+    <circle cx="520" cy="44" r="3" fill="#ffffff" fill-opacity="0.5"/>
+    <circle cx="820" cy="304" r="3" fill="#e5121b"/>
+  </g>
+
+  <!-- radar (red) -->
+  <g fill="none" stroke="#e5121b" stroke-opacity="0.45">
+    <circle cx="1020" cy="160" r="40"/>
+    <circle cx="1020" cy="160" r="80"/>
+    <circle cx="1020" cy="160" r="120"/>
+    <line x1="900" y1="160" x2="1140" y2="160"/>
+    <line x1="1020" y1="40" x2="1020" y2="280"/>
+  </g>
+  <g class="sweep">
+    <path d="M1020 160 L1140 160 A120 120 0 0 0 1111.9 82.8 Z" fill="url(#sweep)"/>
+  </g>
+  <g fill="#ededed">
+    <circle class="blip" cx="1075" cy="118" r="4"/>
+    <circle class="blip b2" cx="975" cy="205" r="4"/>
+    <circle class="blip b3" cx="1070" cy="222" r="4"/>
+  </g>
+
+  <!-- HUD brackets -->
+  <g fill="none" stroke="#e5121b" stroke-width="2" stroke-opacity="0.9">
+    <path d="M18 52 V18 H52"/>
+    <path d="M1182 52 V18 H1148"/>
+    <path d="M18 268 V302 H52"/>
+    <path d="M1182 268 V302 H1148"/>
+  </g>
+
+  <!-- top status line -->
+  <g class="mono flicker" font-size="13" letter-spacing="3">
+    <text x="70" y="78" fill="#8a8a8a"><tspan fill="#e5121b">●</tspan> SYS://SOC-NODE-01  //  CONNECTION: ENCRYPTED</text>
+  </g>
+
+  <!-- name -->
+  <g class="mono" font-size="86" font-weight="800">
+    <text class="g1" x="70" y="172" fill="#e5121b" fill-opacity="0.9" textLength="480" lengthAdjust="spacing">JOB MARIA</text>
+    <text class="g2" x="70" y="172" fill="#ffffff" fill-opacity="0.35" textLength="480" lengthAdjust="spacing">JOB MARIA</text>
+    <text x="70" y="172" fill="#ededed" textLength="480" lengthAdjust="spacing">JOB MARIA</text>
+    <rect class="blink" x="566" y="112" width="36" height="60" fill="#e5121b"/>
+  </g>
+
+  <!-- highlighted tags -->
+  <g class="mono" font-size="15" font-weight="700" text-anchor="middle">
+    <rect x="70"  y="198" width="171" height="30" fill="#e5121b"/>
+    <text x="155.5" y="218" fill="#050505" textLength="141" lengthAdjust="spacing">CYBERSECURITY</text>
+
+    <rect x="251" y="198" width="61"  height="30" fill="none" stroke="#e5121b" stroke-width="1.5"/>
+    <text x="281.5" y="218" fill="#ededed" textLength="31" lengthAdjust="spacing">SOC</text>
+
+    <rect x="322" y="198" width="127" height="30" fill="none" stroke="#e5121b" stroke-width="1.5"/>
+    <text x="385.5" y="218" fill="#ededed" textLength="97" lengthAdjust="spacing">BLUE TEAM</text>
+
+    <rect x="459" y="198" width="116" height="30" fill="none" stroke="#e5121b" stroke-width="1.5"/>
+    <text x="517" y="218" fill="#ededed" textLength="86" lengthAdjust="spacing">RED TEAM</text>
+
+    <rect x="585" y="198" width="83"  height="30" fill="none" stroke="#e5121b" stroke-width="1.5"/>
+    <text x="626.5" y="218" fill="#ededed" textLength="53" lengthAdjust="spacing">REDES</text>
+
+    <rect x="678" y="198" width="149" height="30" fill="none" stroke="#e5121b" stroke-width="1.5"/>
+    <text x="752.5" y="218" fill="#ededed" textLength="119" lengthAdjust="spacing">PROGRAMAÇÃO</text>
+  </g>
+
+  <!-- terminal line -->
+  <text class="mono" x="70" y="272" font-size="16" fill="#8a8a8a"><tspan fill="#e5121b">root@jobmaria</tspan>:~# whoami<tspan class="blink" fill="#ededed"> █</tspan></text>
+
+  <!-- glitch slices -->
+  <rect class="slice" x="0" y="118" width="1200" height="5" fill="#e5121b"/>
+  <rect class="slice s2" x="0" y="150" width="1200" height="3" fill="#ffffff"/>
+
+  <!-- overlays: noise, scanlines, vignette -->
+  <rect width="1200" height="320" filter="url(#noise)" opacity="0.07"/>
+  <rect width="1200" height="320" fill="url(#scan)"/>
+  <rect width="1200" height="320" fill="url(#vignette)"/>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo0MTc1ZTg4ZS1lZjA0LTQ5MWUtYTgwZi0wZDcyOTQ2N2ViNzUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaIehI+2JHf5GbTj75/8BsW8AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpmZDEwNWM4Mi01M2M5LTRjYWYtYjkyNy1jZjQ4MWI1ZDdmNzhscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoxkY1uEqCMtRbkHs3ixoD3AAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggFgTTJt8Z82etXB8HEqSsgaM7/c2XvVPJEJzNbP6yqxmkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaP+g9WE7jABY98D9HDyLcZQAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIDxXiJdEPfPv9aMxRtnQwFq2LtmAT2hw/djEsxy9iNr3ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GSaCZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjQxNzVlODhlLWVmMDQtNDkxZS1hODBmLTBkNzI5NDY3ZWI3NS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmRkODAxZjA0LTYzY2QtNDU5NC1iY2VjLWViNjY3ZWM2M2U5Y3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAWBNMm3xnzZ61cHwcSpKyBozv9zZe9U8kQnM1s/rKrGaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggWn76jULU4i7d1T7aUjT2VKAF0Oxga9BD1zI/HCHvUrKiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggxJSCUXmvm57CAF+TKA831FimQ5gITV/Y2Dhdh4BDYPB0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQOjVdD9FCJYIz+04PxrRZLR87LYgzWirkM6IBlo3mmSrQN3jYt5S7ul7TXxNEuL35Jpbu9/gIGpEOZ4gKQv9xpk=</c2pa:manifest></metadata></svg>
