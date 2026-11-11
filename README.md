@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7f1d1d,50:020617,100:0e7490&height=230&section=header&text=JOB%20MARIA&fontSize=66&fontColor=e6edf3&fontAlignY=38&desc=Cybersecurity%20%7C%20SOC%20%7C%20Blue%20Team%20%7C%20Red%20Team&descSize=17&descAlignY=60&descColor=22c55e&animation=fadeIn" width="100%" alt="Job Maria: cybersecurity, SOC, blue team, red team" />
+<img src="./assets/banner.svg" width="100%" alt="Job Maria: cybersecurity, SOC, blue team, red team" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3200&pause=1000&color=22D3EE&center=true&vCenter=true&width=620&lines=Detect.+Investigate.+Respond.;Offense+informs+defense.;Networking+is+the+ground+truth.;Assume+breach." alt="tagline" />
 
@@ -12,6 +12,27 @@
 ![Red team](https://img.shields.io/badge/RED_TEAM-OFFENSIVE-e11d48?style=for-the-badge&labelColor=020617)
 ![Networking](https://img.shields.io/badge/NETWORKING-TCP%2FIP-22c55e?style=for-the-badge&labelColor=020617)
 ![Code](https://img.shields.io/badge/CODE-PYTHON_%2B_C-22c55e?style=for-the-badge&labelColor=020617)
+
+<br/>
+
+<!-- Social: replace every SEU_USER / SEU@EMAIL. Delete the badges you don't use. -->
+<a href="https://linkedin.com/in/SEU_USER"><img src="https://img.shields.io/badge/LinkedIn-0e7490?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://x.com/SEU_USER"><img src="https://img.shields.io/badge/X-0e7490?style=flat-square&logo=x&logoColor=white" alt="X" /></a>
+<a href="https://instagram.com/SEU_USER"><img src="https://img.shields.io/badge/Instagram-0e7490?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
+<a href="https://youtube.com/@SEU_USER"><img src="https://img.shields.io/badge/YouTube-0e7490?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" /></a>
+<a href="https://tiktok.com/@SEU_USER"><img src="https://img.shields.io/badge/TikTok-0e7490?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok" /></a>
+<a href="https://t.me/SEU_USER"><img src="https://img.shields.io/badge/Telegram-0e7490?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" /></a>
+<a href="https://discord.com/users/SEU_ID"><img src="https://img.shields.io/badge/Discord-0e7490?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://wa.me/SEU_NUMERO"><img src="https://img.shields.io/badge/WhatsApp-0e7490?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
+<a href="mailto:SEU@EMAIL"><img src="https://img.shields.io/badge/Email-0e7490?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+
+<!-- Labs, platforms and writing -->
+<a href="https://app.hackthebox.com/profile/SEU_ID"><img src="https://img.shields.io/badge/Hack_The_Box-15803d?style=flat-square&logo=hackthebox&logoColor=white" alt="Hack The Box" /></a>
+<a href="https://tryhackme.com/p/SEU_USER"><img src="https://img.shields.io/badge/TryHackMe-15803d?style=flat-square&logo=tryhackme&logoColor=white" alt="TryHackMe" /></a>
+<a href="https://hackerone.com/SEU_USER"><img src="https://img.shields.io/badge/HackerOne-9f1239?style=flat-square&logo=hackerone&logoColor=white" alt="HackerOne" /></a>
+<a href="https://bugcrowd.com/SEU_USER"><img src="https://img.shields.io/badge/Bugcrowd-9f1239?style=flat-square&logo=bugcrowd&logoColor=white" alt="Bugcrowd" /></a>
+<a href="https://medium.com/@SEU_USER"><img src="https://img.shields.io/badge/Blog-15803d?style=flat-square&logo=medium&logoColor=white" alt="Blog" /></a>
+<a href="https://SEU_SITE"><img src="https://img.shields.io/badge/Portfolio-15803d?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
 
 </div>
 
@@ -48,15 +69,43 @@ detect ──▶ triage ──▶ contain ──▶ report
 | **Response** | | **Triage, investigation and containment per playbook** |
 
 <!--
-UNCOMMENT THIS SECTION ONLY WHEN YOU HAVE REAL REPOS
+FEATURED PROJECTS: UNCOMMENT ONLY WHEN YOU HAVE REAL REPOS.
+Steps: 1) replace REPO_1..REPO_4 with real repo names, 2) fill in the flagship block,
+3) remove this comment wrapper (the opening and closing lines).
 
-## In production
+## Featured projects
 
-| Repo | What it solves | Stack |
-|---|---|---|
-| [repo-name](https://github.com/jobmaria/repo-name) | One objective line | Sigma |
-| [repo-name](https://github.com/jobmaria/repo-name) | One objective line | KQL |
-| [repo-name](https://github.com/jobmaria/repo-name) | One objective line | Python |
+<div align="center">
+
+![Flagship](https://img.shields.io/badge/★_FLAGSHIP-e11d48?style=for-the-badge&labelColor=020617)
+
+### [FLAGSHIP_NAME](https://github.com/jobmaria/FLAGSHIP_REPO)
+
+One objective line: what it solves and for whom.
+
+![Status](https://img.shields.io/badge/STATUS-ACTIVE-22c55e?style=flat-square&labelColor=020617)
+![Stack](https://img.shields.io/badge/STACK-PYTHON-22d3ee?style=flat-square&labelColor=020617)
+![Domain](https://img.shields.io/badge/DOMAIN-DETECTION-9f1239?style=flat-square&labelColor=020617)
+
+<br/>
+
+<a href="https://github.com/jobmaria/FLAGSHIP_REPO">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=jobmaria&repo=FLAGSHIP_REPO&theme=transparent&bg_color=020617&title_color=22d3ee&text_color=c9d1d9&icon_color=22c55e&border_color=0e7490" alt="flagship project" />
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/jobmaria/REPO_1"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jobmaria&repo=REPO_1&theme=transparent&bg_color=020617&title_color=22d3ee&text_color=c9d1d9&icon_color=22c55e&border_color=0e7490" alt="REPO_1" /></a>
+<a href="https://github.com/jobmaria/REPO_2"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jobmaria&repo=REPO_2&theme=transparent&bg_color=020617&title_color=22d3ee&text_color=c9d1d9&icon_color=22c55e&border_color=0e7490" alt="REPO_2" /></a>
+<br/>
+<a href="https://github.com/jobmaria/REPO_3"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jobmaria&repo=REPO_3&theme=transparent&bg_color=020617&title_color=22d3ee&text_color=c9d1d9&icon_color=22c55e&border_color=0e7490" alt="REPO_3" /></a>
+<a href="https://github.com/jobmaria/REPO_4"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jobmaria&repo=REPO_4&theme=transparent&bg_color=020617&title_color=22d3ee&text_color=c9d1d9&icon_color=22c55e&border_color=0e7490" alt="REPO_4" /></a>
+
+<br/>
+
+[All repositories →](https://github.com/jobmaria?tab=repositories)
+
+</div>
 -->
 
 ## Stack
@@ -77,20 +126,30 @@ UNCOMMENT THIS SECTION ONLY WHEN YOU HAVE REAL REPOS
 ![Wireshark](https://img.shields.io/badge/Wireshark-15803d?style=flat-square&logo=wireshark&logoColor=white)
 ![Packet Tracer](https://img.shields.io/badge/Packet_Tracer-15803d?style=flat-square)
 
-
 </div>
 
-
-ENABLE ONLY WHEN THE ACCOUNT HAS REAL ACTIVITY (empty graphs hurt more than they help)
+<!--
+ACTIVITY AND STATS: UNCOMMENT ONLY WHEN THE ACCOUNT HAS REAL ACTIVITY.
+Empty graphs hurt more than they help.
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=jobmaria&bg_color=020617&color=22d3ee&line=0e7490&point=e6edf3&area=true&area_color=0e7490&hide_border=true" width="100%" alt="activity" />
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=jobmaria&show_icons=true&hide_border=true&bg_color=020617&title_color=22d3ee&icon_color=22c55e&text_color=c9d1d9" alt="stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/?username=jobmaria&show_icons=true&hide_border=true&bg_color=020617&title_color=22d3ee&icon_color=22c55e&text_color=c9d1d9" alt="stats" />
 </div>
-
+-->
 
 ## Contact
 
-[LinkedIn](https://linkedin.com/in/SEU_USER) · [Email](mailto:SEU@EMAIL)
+```text
+$ ./connect --open
+  linkedin   linkedin.com/in/SEU_USER
+  email      SEU@EMAIL
+  telegram   t.me/SEU_USER
+  labs       hackthebox / tryhackme / hackerone
+```
+
+<div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e7490,50:020617,100:7f1d1d&height=100&section=footer" width="100%" alt="" />
+
+</div>
