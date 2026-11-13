@@ -16,10 +16,9 @@
 <br/>
 
 <!-- Replace SEU_USER / SEU_ID / SEU@EMAIL. Swap or delete badges you don't use. -->
-<a href="https://linkedin.com/in/job-maria-958b4833a"><img src="https://img.shields.io/badge/LinkedIn-e5121b?style=flat-square&logo=linkedin&logoColor=white&labelColor=050505" alt="LinkedIn" /></a>
-<a href="https://x.com/SEU_USER"><img src="https://img.shields.io/badge/X-e5121b?style=flat-square&logo=x&logoColor=white&labelColor=050505" alt="X" /></a>
-<a href="https://tryhackme.com/p/LORAX"><img src="https://img.shields.io/badge/TryHackMe-e5121b?style=flat-square&logo=tryhackme&logoColor=white&labelColor=050505" alt="TryHackMe" /></a>
-<a href="mailto:jbmaria420@gmail.com"><img src="https://img.shields.io/badge/Email-e5121b?style=flat-square&logo=gmail&logoColor=white&labelColor=050505" alt="Email" /></a>
+<a href="https://linkedin.com/in/job-maria-958b4833a"><img src="https://img.shields.io/badge/LINKEDIN-Job_Maria-0e7490?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=050505" alt="LinkedIn" /></a>
+<a href="https://tryhackme.com/p/LORAX"><img src="https://img.shields.io/badge/TRYHACKME-LORAX-e5121b?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=050505" alt="TryHackMe" /></a>
+<a href="mailto:jbmaria420@gmail.com?subject=Hello%20Job"><img src="https://img.shields.io/badge/EMAIL-Get_in_touch-15803d?style=for-the-badge&logo=gmail&logoColor=white&labelColor=050505" alt="Email" /></a>
 
 </div>
 
